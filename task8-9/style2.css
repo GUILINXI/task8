@@ -1,0 +1,388 @@
+body {
+    background: #fafafa!important;
+    margin: 0;
+}
+.hotline {
+    padding: 10px 0 0 0;
+    color: #29b078;
+}
+.keepr .partition {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+.icon {
+    padding: 5px 45px 5px 0;
+}
+.fr{
+	float: right;
+}
+.w100{
+	width: 100%;
+}
+.tc{
+	text-align: center;
+}
+.m0 {
+	margin: 0;
+}
+.p0 {
+	padding: 0;
+}
+.m0 > li > a {
+    padding: 0!important;
+    margin: 15px;
+}
+
+@media screen and (max-width:768px){
+	#example-navbar-collapse ul {
+        width: 100%;
+        padding-top: 0;
+    }
+    .collapse {
+        display: block;
+    }
+}
+header > .navbar {
+    border-radius: 0px;
+}
+.p0 .navbar-nav {
+    float: right;
+    margin: 0;
+    padding-top: 15px;
+}
+.navbar > .back > .top > .navbar-header {
+    margin-right: 0;
+    height: 100px;
+}
+.navbar > .back > .top > .navbar-collapse {
+    padding-left: 0;
+}
+.logo {
+    padding-top: 28px;
+}
+header > .navbar-default {
+    background: #29b078;
+}
+.text {
+    color: #fff!important;
+}
+.hov:hover {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.collapse > ul > .hov > a {
+    line-height: 53px;
+}
+.top {
+    padding: 0!important;
+}
+.navbar {
+    margin: 0!important;
+}
+.mgr .navbar-toggle {
+    margin-right: 25px;
+}
+.navbar > .back > .top > .mgr > .navbar-toggle {
+    position: absolute;
+    left: 90%;
+    top: 25px;
+}
+div p {
+    margin: 0;
+}
+.colors {
+    color: #999;
+}
+.homepage-box {
+    padding: 30px 0 0 0;
+}
+.homepage {
+    display: flex;
+    padding-bottom: 30px;
+}
+.homepage > p {
+    font-size: 16px;
+}
+.profession {
+    font-size: 16px;
+    color: #29b078;
+}
+.direction-box {
+    display: flex;
+    padding: 20px 0;
+    border-top: 2px solid #d0d6d9;
+    border-bottom: 2px solid #edf1f2;
+}
+.direction > p {
+    font-size: 14px;
+    color: #999;
+}
+.direction-1 {
+    font-size: 14px;
+    margin-right: 29px;
+    color: #333;
+}
+.direction-box a:hover {
+    color: #fff;
+    background: #29b078;
+    text-decoration: none;
+}
+.web > p {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px 0;
+    border-bottom: 2px solid #d0d6d9;
+}
+.big-box {
+    border: 1px solid #d0d6d9;
+    margin-top: 45px;
+    background: #fff;
+}
+.image-box {
+    display: flex;
+    margin: 20px 0px;
+}
+.image {
+    padding: 0 10px;
+}
+.text-box {
+    padding-right: 10px;
+}
+.text-box > h4 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.text-box > p {
+    font-size: 14px;
+    word-break: break-all;
+}
+.row-text-1 {
+    display: flex;
+    width: 100%;
+}
+.doorsill-box {
+    display: flex;
+    border-top: 1px solid #d0d6d9;
+    border-right: 1px solid #d0d6d9;
+    height: 40px; 
+    width: 50%;
+    align-items: center;
+}
+.doorsill-box > p {
+    font-size: 12px;
+    color: #999;
+    padding: 0 12px;
+}
+.xing {
+    height: 16px;
+    width: 16px;
+}
+.complexity-box {
+    display: flex;
+    border-top: 1px solid #d0d6d9;
+    height: 40px; 
+    width: 50%;
+    align-items: center;
+}
+.complexity-box > p {
+    font-size: 12px;
+    color: #999;
+    padding: 0 12px;
+}
+.period-box {
+    display: flex;
+    border-top: 1px solid #d0d6d9;
+    border-right: 1px solid #d0d6d9;
+    border-bottom: 1px solid #d0d6d9;
+    height: 40px; 
+    width: 50%;
+    align-items: center;
+}
+.period-box > p {
+    font-size: 12px;
+    color: #999;
+    padding: 0 12px;
+}
+.colo {
+    font-size: 12px;
+    color: #f01400;
+}
+.scarcity-box {
+    display: flex;
+    border-top: 1px solid #d0d6d9;
+    border-bottom: 1px solid #d0d6d9;
+    height: 40px; 
+    width: 50%;
+    align-items: center;
+}
+.scarcity-box > p {
+    font-size: 12px;
+    color: #999;
+    padding: 0 12px;
+}
+.pay-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #d0d6d9;
+    border-bottom: 1px solid #d0d6d9;
+    width: 30%;
+    height: 105px;
+}
+.pay-box > p {
+    font-size: 12px;
+    color: #999;
+}
+.hh {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.years-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d0d6d9;
+    height: 35px;
+    padding: 0 25px;
+}
+.amount-box {
+    height: 40px;
+    width: 100%;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+}
+.amount-box > span {
+    font-size: 12px;
+    color: #999;
+}
+.section-box {
+    border-top: 1px solid #d0d6d9;
+    height: 40px;
+    width: 100%;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+}
+.section-box > p {
+    font-size: 12px;
+    color: #999;
+}
+.trigger-ios {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 46px;
+    padding: 75px 40px;
+    width: 92%;
+    height: 91%;
+    background-color: rgba(61, 61, 61, 0.9);
+}
+.big-box:hover .trigger-ios {
+    display: block;
+}
+.ios {
+    font-size: 16px;
+    color: #fff;
+    text-indent: 30px;
+    line-height: 1.4;
+}
+.trigger-ios > h1 {
+    margin:0 0 35px 0;
+    text-align: center;
+}
+.mgb {
+    margin-bottom: 150px;
+}
+footer {
+    background: #29b078;
+}
+.texts-2 > p {
+    font-size: 16px;
+    color: #fff;
+    padding: 35px 0 65px 0;
+}
+.text-1 {
+    font-size: 14px;
+    color: #fff; 
+}
+.text-1:nth-of-type(1) {
+    border-right: 2px solid;
+    padding-right:5px;
+}
+.text-1:nth-of-type(2) {
+    border-right: 2px solid;
+    padding-right:5px;
+}
+.texts-3 > p {
+    font-size: 16px;
+    color: #fff;
+    padding: 35px 0 25px 0; 
+}
+.text-2 {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.none {
+    padding: 80px 0;
+}
+.texts-4 {
+    text-align: right;
+}
+.texts-4 > p {
+    font-size: 16px;
+    color: #fff;
+    padding: 35px 0 0 0;
+}
+.code {
+    display: inline-block;
+    background: url(images/erweima.png) no-repeat;
+    height: 90px;
+    width: 92px;
+}
+.labels {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    background: #29b078;
+    border: none;
+    border-top: 1px solid #32c086; 
+}
+@media screen and (max-width:970px) {
+    .none {
+        display: none;
+    }
+}
+@media screen and (max-width:970px) {
+    .texts-4 p {
+        text-align: center;
+    }
+    .code {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .texts-2 {
+        text-align: center;
+    }
+    .texts-3 {
+        text-align: center;
+    }
+}
+@media screen and (max-width:768px) {
+    .image-box {
+        display: flex;
+    }
+}
+@media screen and (max-width:768px) {
+    .logo {
+        margin-left: 15px;
+    }
+}
