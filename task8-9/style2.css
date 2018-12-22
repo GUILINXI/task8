@@ -2,6 +2,9 @@ body {
     background: #fafafa!important;
     margin: 0;
 }
+a {
+    cursor: pointer;
+}
 .hotline {
     padding: 10px 0 0 0;
     color: #29b078;
@@ -14,13 +17,13 @@ body {
 .icon {
     padding: 5px 45px 5px 0;
 }
-.fr{
+.fr {
 	float: right;
 }
-.w100{
+.w100 {
 	width: 100%;
 }
-.tc{
+.tc {
 	text-align: center;
 }
 .m0 {
@@ -37,7 +40,6 @@ body {
 @media screen and (max-width:768px){
 	#example-navbar-collapse ul {
         width: 100%;
-        padding-top: 0;
     }
     .collapse {
         display: block;
@@ -49,17 +51,18 @@ header > .navbar {
 .p0 .navbar-nav {
     float: right;
     margin: 0;
-    padding-top: 15px;
 }
 .navbar > .back > .top > .navbar-header {
-    margin-right: 0;
-    height: 100px;
+    margin-bottom: 10px
 }
 .navbar > .back > .top > .navbar-collapse {
     padding-left: 0;
+    padding-right: 0;
 }
 .logo {
-    padding-top: 28px;
+    width: 100px;
+    height: 30px;
+    margin-top: 12px;
 }
 header > .navbar-default {
     background: #29b078;
@@ -71,9 +74,6 @@ header > .navbar-default {
     text-decoration: none;
     color: #fff;
     border-bottom: 2px solid #fff;
-}
-.collapse > ul > .hov > a {
-    line-height: 53px;
 }
 .top {
     padding: 0!important;
@@ -87,7 +87,6 @@ header > .navbar-default {
 .navbar > .back > .top > .mgr > .navbar-toggle {
     position: absolute;
     left: 90%;
-    top: 25px;
 }
 div p {
     margin: 0;
@@ -281,6 +280,7 @@ div p {
     width: 92%;
     height: 91%;
     background-color: rgba(61, 61, 61, 0.9);
+    cursor: pointer;
 }
 .big-box:hover .trigger-ios {
     display: block;

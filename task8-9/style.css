@@ -1,6 +1,9 @@
 body {
     background: #fafafa!important;
 }
+a {
+    cursor: pointer;
+}
 .hotline {
     padding: 10px 0 0 0;
     color: #29b078;
@@ -176,6 +179,10 @@ div p {
     text-align: center;
     padding: 0 32px 35px 32px;
 }
+.picture-box:hover {
+    box-shadow: 2px 2px 2px 4px #dedede;
+    cursor: pointer;
+}
 .pictures-one {
     display: inline-block;
     background: url(images/picture1.png) no-repeat;
@@ -267,6 +274,7 @@ div p {
     margin: 0 5px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .text-boxs {
     background: #fff;
@@ -375,6 +383,13 @@ footer {
         display: flex;
     }
 }
+@media screen and (min-width:990px) {
+    .list-one {
+        width: 780px;
+        display: flex;
+        margin: auto;
+    }
+}
 @media screen and (max-width:990px) {
     .logo1:hover {
         width: 100%;
@@ -387,15 +402,9 @@ footer {
         height:180px;
     }
 }
-@media screen and (min-width:990px) {
-    .list-one {
-        width: 780px;
-        display: flex;
-        margin: auto;
-    }
-}
 @media screen and (max-width:768px) {
     .logo {
         margin-left: 15px;
     }
 }
+
